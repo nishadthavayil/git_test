@@ -1,1 +1,26 @@
-i am only in master
+
+git merge master -> to merge the current branch with master(local, not remote)
+
+#git pull origin master -> get pull from remote branch(frsssssom remote repo) 
+  - here origin means remote
+
+git status -> will show the current branch
+
+git show head -> points the latest commit on the branch
+
+git branch -> will list the branchs(with * on the current branch)
+
+git branch -a => will list all the branch both local and remote
+
+git add. => to add a modification
+
+#git fetch origin =>to fetch all the remote branches
+
+# Pull changes from a remote branch
+Note that you cannot make changes directly on a remote branch. Hence, you need a copy of that branch. Say you wanted to copy the remote branch br1, here's how you would do it:  To checkout remote branch(need)
+ -git checkout -b br1 origin/br1
+
+
+
+https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/
+https://www.tutorialspoint.com/git/git_basic_concepts.htm
